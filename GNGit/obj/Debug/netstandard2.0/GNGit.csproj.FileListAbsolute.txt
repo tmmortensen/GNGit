@@ -1,0 +1,12 @@
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/GNGit.csprojAssemblyReference.cache
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/GNGit.csproj.CoreCompileInputs.cache
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/GNGit.AssemblyInfoInputs.cache
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/GNGit.AssemblyInfo.cs
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/GNGit.dll
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/GNGit.pdb
+/Users/thomasmortensen/Projects/GNGit/GNGit/bin/Debug/netstandard2.0/GNGit.deps.json
+/Users/thomasmortensen/Projects/GNGit/GNGit/bin/Debug/netstandard2.0/GNGit.dll
+/Users/thomasmortensen/Projects/GNGit/GNGit/bin/Debug/netstandard2.0/GNGit.pdb
+/Users/thomasmortensen/Projects/GNGit/GNGit/obj/Debug/netstandard2.0/XamlC.stamp

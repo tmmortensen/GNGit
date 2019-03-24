@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:GNGit" x:Class="GNGit.MainPage"
+             x:Name="MyPage"
+             Title="Git users">
+    <StackLayout Orientation="Vertical" 
+               HorizontalOptions="FillAndExpand">
+        <Label BackgroundColor="Silver" 
+               HeightRequest="35" HorizontalOptions="Fill"/>
+        <SearchBar Placeholder="Search..." 
+                   Text="{Binding SearchText}">
+        </SearchBar>
+            <ListView IsPullToRefreshEnabled="True" 
+                      ItemsSource="{Binding GitUsers}"
+                      SelectionMode="None">
+              <ListView.ItemTemplate>
+                <DataTemplate>
+                  <ImageCell Text="{Binding login}" 
+                             Detail="{Binding repos_url}">
+                    <ImageCell.ImageSource>
+                       <UriImageSource Uri="{Binding avatarUrl}"/>     
+                    </ImageCell.ImageSource>
+                    <ImageCell.ContextActions>
+                        <MenuItem Text="Go to repo" 
+                                  Command="{Binding Path=BindingContext.OpenBrowserCommand, 
+                                  Source={x:Reference MyPage}}"
+                                  CommandParameter="{Binding repos_url}">
+                        </MenuItem>
+                    </ImageCell.ContextActions>
+                  </ImageCell>
+                </DataTemplate>
+              </ListView.ItemTemplate>
+            </ListView>
+    </StackLayout>
+</ContentPage>
